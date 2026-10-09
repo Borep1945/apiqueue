@@ -1,0 +1,10 @@
+[queue]
+concurrency = 3
+queue_size = 8
+requests_per_second = 2.0
+timeout = 5.0
+attempts = 3
+backoff = 0.5
+max_retry_delay = 30.0
+max_response_bytes = 100000
+max_jobs = 100

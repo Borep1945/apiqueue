@@ -1,0 +1,9 @@
+name: Feature request
+description: Propose a focused improvement
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: User problem and proposed behavior
+    validations:
+      required: true

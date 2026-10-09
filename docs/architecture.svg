@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230" role="img" aria-labelledby="title desc">
+  <title id="title">APIQueue architecture</title>
+  <desc id="desc">CLI input passes through validation, bounded execution and an observable result.</desc>
+  <rect width="900" height="230" rx="18" fill="#08131f"/>
+  <text x="36" y="43" fill="#e6f2ff" font-family="sans-serif" font-size="24">APIQueue / execution flow</text>
+  <g font-family="sans-serif" font-size="18" fill="#e6f2ff" text-anchor="middle">
+    <rect x="35" y="82" width="175" height="83" rx="12" fill="#112537" stroke="#36cfdd"/><text x="122" y="129">JSONL / config</text>
+    <rect x="253" y="82" width="175" height="83" rx="12" fill="#112537" stroke="#36cfdd"/><text x="340" y="129">Bounded queue</text>
+    <rect x="471" y="82" width="175" height="83" rx="12" fill="#112537" stroke="#36cfdd"/><text x="558" y="129">Paced HTTP</text>
+    <rect x="689" y="82" width="175" height="83" rx="12" fill="#112537" stroke="#36cfdd"/><text x="776" y="129">Ordered JSONL</text>
+  </g>
+  <path d="M210 124h43m175 0h43m175 0h43" stroke="#36cfdd" stroke-width="3"/>
+  <text x="36" y="202" fill="#99acc2" font-family="sans-serif" font-size="14">Explicit limits • inspectable state • offline verification</text>
+</svg>
