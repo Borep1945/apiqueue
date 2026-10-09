@@ -2,7 +2,7 @@
 
 **Run HTTP batches with controlled concurrency, request pacing and finite retries.**
 
-![CI](https://github.com/Borep1945/apiqueue/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/corevail/apiqueue/actions/workflows/ci.yml/badge.svg)
 ![Python](https://img.shields.io/badge/Python-3.11%2B-36cfdd?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-36cfdd?style=flat-square)
 
