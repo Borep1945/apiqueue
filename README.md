@@ -87,4 +87,4 @@ contain private content and the CLI prints them to stdout.
 - Optional persistent job ledger and resume semantics.
 - Per-origin pacing and explicit credential providers.
 
-[Local verification](docs/VERIFICATION.md) · [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md) · [MIT license](LICENSE)
+[Local verification](docs/VERIFICATION.md) · [API reference](docs/API.md) · [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md) · [MIT license](LICENSE)
