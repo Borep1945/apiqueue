@@ -54,14 +54,15 @@ import asyncio
 import httpx
 from apiqueue.core import APIQueue, Job, QueueConfig
 
+
 async def fetch_health():
     async with httpx.AsyncClient(
         headers={"Authorization": "Bearer YOUR_TOKEN"}, trust_env=False
     ) as client:
         queue = APIQueue(client, QueueConfig(concurrency=2, requests_per_second=3))
-        return await asyncio.wait_for(queue.run([
-            Job("health", "https://YOUR_API/health")
-        ]), timeout=30)
+        return await asyncio.wait_for(
+            queue.run([Job("health", "https://YOUR_API/health")]), timeout=30
+        )
 ```
 
 ## Result
